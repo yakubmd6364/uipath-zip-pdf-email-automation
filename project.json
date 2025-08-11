@@ -1,0 +1,79 @@
+{
+  "name": "WebAutomation",
+  "projectId": "89578a36-2ec0-4a07-923f-4e3c7e206e8c",
+  "description": "Web Automation",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.1.0]",
+    "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.GSuite.Activities": "[3.3.1-preview]",
+    "UiPath.Mail.Activities": "[2.2.10]",
+    "UiPath.PDF.Activities": "[3.23.1-preview]",
+    "UiPath.Python.Activities": "[2.0.0-preview]",
+    "UiPath.System.Activities": "[25.6.1]",
+    "UiPath.UIAutomation.Activities": "[25.10.11-preview]",
+    "UiPath.WebAPI.Activities": "[1.21.1]",
+    "UiPath.Word.Activities": "[2.1.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.167.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bc078886-b069-46ce-b8ba-0f265853b1a1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Queue_Orchestrator.xaml",
+      "uniqueId": "2ca1b360-ad5b-4478-898f-a71cc905d109",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "StateMachine1.xaml",
+      "uniqueId": "83942640-4dfc-47f0-89cf-a749f908b213",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
